@@ -1,1 +1,26 @@
-{{ nome}}
+<h2>Interpolation</h2>
+
+<p>{{ nome }} tem {{ idade }} anos!</p>
+
+<p>{{ nome }} tem mais de 28 anos</p>
+<p>{{ idade > 28 }}</p>
+
+<p>quanto é {{idade }} + {{ maisUm }}?</p>
+<p>{{ idade + maisUm }}</p>
+ 
+<hr>
+
+<h2>Property Binding</h2>
+<button [disabled]="checkedDisabled">button></button>
+<br>
+
+<img [src]="imgSrc" [title]="imgTitle">
+
+<br>
+<br>
+
+<hr>
+
+<h2>Event Binding</h2>
+
+<button (click)="alertaInfo" >Event</button>
