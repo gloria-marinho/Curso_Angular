@@ -1,8 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-//componentes
-import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 //componentes
@@ -14,17 +11,8 @@ import { TodoListComponent } from './components/todo-list/todo-list.component';
 //page
 import { HomeComponent } from './pages/home/home.component';
 
-
-
-
 @NgModule({
-  declarations: [
-    HeaderComponent,
-    TodoButtonDeleteAllComponent,
-    TodoInputAddItensComponent,
-    TodoListComponent,
-    HomeComponent
-  ],
+  declarations: [HeaderComponent,TodoButtonDeleteAllComponent,TodoInputAddItensComponent,TodoListComponent,HomeComponent],
   imports: [
     CommonModule,
     FormsModule
